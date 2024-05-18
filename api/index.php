@@ -10,7 +10,7 @@
     
     <title>Crack Games</title>
     
-    <base href="http://localhost/crack/">
+    <base href="http://localhost/CrackGames/api/">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -76,7 +76,7 @@
             $param = $_GET["param"];  
             // serapar o parametro por /
             $p = explode("/", $param);
-            print_r($p);
+            //print_r($p);
         }
 
         $page = $p[0] ?? "home";
