@@ -24,7 +24,7 @@
 </head>
 <body> 
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary"  id="navbar" data-aos="fade-down" data-aos-duration="1000ms">
+<nav class="navbar navbar-expand-lg bg-body-tertiary"  id="navbar" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-out">
 
     <div class="container-fluid">
 
@@ -51,12 +51,12 @@
             </a>
             <ul class="dropdown-menu ">
                 <li><a class="dropdown-item" href="golden">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="#">monster-hunter</a></li>
+                <li><a class="dropdown-item" href="#">euro truck</a></li>
+                <li><a class="dropdown-item" href="call">ECall of Duty MWII</a></li>
+                <li><a class="dropdown-item" href="cs">Counter Strike 2</a></li>
+                <li><a class="dropdown-item" href="gta">GTA-V</a></li>
+                <li><a class="dropdown-item" href="elder">Elder Ring</a></li>
             </ul>
             </li>
         </ul>
@@ -66,6 +66,7 @@
         </div>
     </div>
 </nav>
+
 
 
 <main>
@@ -102,10 +103,10 @@
     <footer class="footer">
         <h2 class="text-footer">Contato</h2>
         <div class="links">
-        <a href="#">
+        <a href="https://www.instagram.com/lucas__pedrozo?igsh=ZndteTJiaTB4OTZu">
             <i class="bi bi-instagram"></i>
         </a>
-        <a href="">
+        <a href="index.php">
         <i class="bi bi-github"></i>
         </a>
         <a href="https://wa.me/qr/OGED4XU6THFTB1">

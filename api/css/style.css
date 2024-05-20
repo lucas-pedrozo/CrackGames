@@ -7,26 +7,33 @@
   padding: 0; }
 
 body {
-  background: #011c1f !important;
+  backdrop-filter: blur(100px);
+  background-color: #011c1f;
+  background-image: linear-gradient(70deg, #000e0f 0%, #003741 50%, #000e0f 100%);
   font-family: "Montserrat" !important;
   color: white !important; }
 
 .navbar-brand img {
   width: 45px;
   border-radius: 5px 20px 5px 20px;
-  transition: 500ms; }
+  transition: 500ms;
+  padding: 2px 0; }
   .navbar-brand img:hover {
     transform: scale(1.05); }
 
 #navbar {
-  background-color: #0B434A !important;
-  box-shadow: 0 0 10px #00F0FF;
+  background-color: #0b434a;
+  background-image: linear-gradient(180deg, #00343b 0%, #004750 100%);
+  box-shadow: 0 0 15px black;
   top: 0;
   z-index: 99999;
-  padding: 0 20px; }
+  padding: 0 20px;
+  border-radius: 0 0 20px 20px; }
   #navbar .navbar-toggler {
     background-color: #009bb6 !important;
     border: 2px solid white; }
+    #navbar .navbar-toggler:hover {
+      box-shadow: 0 0 10px #00F0FF; }
   #navbar .nav-link {
     color: white !important;
     font-weight: 400;
@@ -35,7 +42,6 @@ body {
     transition: 500ms; }
     #navbar .nav-link:hover {
       transform: scale(1.08);
-      background-color: #006154;
       border-radius: 20px;
       color: #fffb00 !important; }
 
@@ -55,20 +61,33 @@ main {
   margin: 80px auto; }
 
 .footer {
-  background-color: #0B434A;
+  background-color: #0b434a;
+  background-image: linear-gradient(0deg, #00343b 0%, #004750 100%);
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px black;
   padding: 6px; }
   .footer .text-footer {
     text-align: center;
     font-size: 1.3rem;
     padding-bottom: 5px;
-    color: #e0d100; }
+    color: #ffee00; }
   .footer .links {
     display: flex;
     justify-content: center;
     gap: 0 30px; }
     .footer .links a {
-      font-size: 20px;
-      color: white; }
+      font-size: 24px;
+      color: white;
+      transition: 400ms; }
+      .footer .links a:hover {
+        transform: scale(1.2); }
+
+.erro {
+  width: 100%;
+  text-align: center; }
+
+.text-erro {
+  text-align: center; }
 
 .text-center {
   text-align: center;
@@ -91,12 +110,12 @@ main {
     display: flex;
     justify-content: space-between; }
   .cart .cart-block {
-    width: 95%;
+    width: 94%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 40px;
-    background-color: #0B434A;
+    background-color: #0b324d;
     border-radius: 20px;
     transition: 500ms !important; }
     .cart .cart-block:hover {
@@ -120,9 +139,56 @@ main {
       .cart .cart-block .jogue:hover {
         transform: scale(1.07); }
 
+.contato {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  gap: 0 15%;
+  box-sizing: border-box; }
+  .contato img {
+    width: 88% !important;
+    border-radius: 20px;
+    transition: 400ms !important;
+    margin: 40px 0; }
+    .contato img:hover {
+      transform: scale(1.02) !important;
+      box-shadow: 0 0 10px #00F0FF; }
+  .contato .text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .contato .text p {
+      text-align: center;
+      background-color: #002a2e;
+      background-image: linear-gradient(112deg, #002529 0%, #01383b 48%, #00545c 100%);
+      font-size: 1rem !important;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin: 10px 5px;
+      border: 1px solid rgba(0, 0, 0, 0.514);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.795); }
+    .contato .text a {
+      text-align: center;
+      background-color: #ffa600;
+      background-image: linear-gradient(43deg, #c47f00 0%, #e0bb00 100%);
+      font-size: 1rem !important;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin: 10px 10px;
+      color: white;
+      text-decoration: none;
+      transition: 300ms !important; }
+      .contato .text a:hover {
+        box-shadow: 0 0 10px #c47f00;
+        transform: scale(1.04) !important; }
+
 @media (min-width: 430px) and (max-width: 700px) {
   main {
-    padding: 0 20px; } }
+    padding: 0 20px; }
+
+  .contato img {
+    width: 70% !important; } }
 @media (min-width: 700px) and (max-width: 990px) {
   #navbar .nav-link {
     color: white !important;
@@ -150,6 +216,17 @@ main {
 
   .cart .cart-block {
     width: 30%;
-    margin: 10px; } }
+    margin: 10px; }
+
+  .contato {
+    border: 2px solid aqua;
+    backdrop-filter: blur(200px);
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #161616; }
+    .contato img {
+      width: 35% !important; }
+    .contato .text {
+      flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
