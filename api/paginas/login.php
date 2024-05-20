@@ -34,9 +34,9 @@
          </form>
     </div>
 
-        <p class="text-login2">
+    <p class="text-login2">
             Atenção suas informações serão utilizadas para atribuir uma experiencia diacordo com sua caracteristica de uso, seja Bem vindo ao nosso site de jogos Online.
         </p>
-    
+
 </body>
 </html>

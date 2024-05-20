@@ -32,7 +32,7 @@
 <div class="cart">
 
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
-        <a href="#">
+        <a href="jogo/goldenapple">
             <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
         </a>
            <div class="descricao">

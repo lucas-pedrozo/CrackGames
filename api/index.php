@@ -50,7 +50,7 @@
                 JOGOS
             </a>
             <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="golden">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="goldenapple">Em Busca Da Golden Apple</a></li>
                 <li><a class="dropdown-item" href="#">monster-hunter</a></li>
                 <li><a class="dropdown-item" href="#">euro truck</a></li>
                 <li><a class="dropdown-item" href="call">ECall of Duty MWII</a></li>
@@ -81,7 +81,7 @@
         }
 
         $page = $p[0] ?? "home";
-        $jogo = $p[1] ?? null;
+        $jogo = $p[1] ?? NULL;
 
         if ($page == "jogo") {
             $pagina = "jogo/{$jogo}.php";
