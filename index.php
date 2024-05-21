@@ -50,7 +50,7 @@
                 JOGOS
             </a>
             <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="goldenapple">Em Busca Da Golden Apple</a></li>
+                <li><a class="dropdown-item" href="jogo/goldenapple">Em Busca Da Golden Apple</a></li>
                 <li><a class="dropdown-item" href="#">monster-hunter</a></li>
                 <li><a class="dropdown-item" href="#">euro truck</a></li>
                 <li><a class="dropdown-item" href="call">ECall of Duty MWII</a></li>
