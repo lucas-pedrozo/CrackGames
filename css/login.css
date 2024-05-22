@@ -1,24 +1,20 @@
 /* corres */
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .margin0 {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   backdrop-filter: blur(100px);
   background-color: #011c1f;
   background-image: linear-gradient(70deg, #000e0f 0%, #003741 50%, #000e0f 100%);
   font-family: "Montserrat" !important;
-  color: white !important;
-}
+  color: white !important; }
 
 h3 {
-  margin: 0 20px;
-}
+  margin: 0 20px; }
 
 .login {
   margin: auto;
@@ -28,62 +24,49 @@ h3 {
   padding: 20px 0;
   box-shadow: 0 0 20px black;
   background-color: #003439;
-  background-image: linear-gradient(111deg, #003439 0%, #003c41 48%, #00545c 100%);
-}
-.login h1 {
-  text-align: center;
-  font-size: 2rem;
-  color: #00F0FF;
-  padding-bottom: 12px;
-}
-.login .form1 {
-  text-align: center;
-  gap: 0 20px;
-}
-.login .form1 p {
-  text-align: center;
-}
-.login .form1 input {
-  padding: 3px 5px;
-  border-radius: 20px;
-  color: black !important;
-  font-weight: bold;
-}
-.login .botao-flex {
-  display: flex;
-  justify-content: center;
-}
-.login .botao-flex .botao {
-  transform: scale(1.06);
-  background-color: #cec700;
-  color: black;
-  padding: 5px;
-  border-radius: 20px;
-  font-weight: bold;
-  transition: 500ms;
-}
-.login .botao-flex .botao:hover {
-  opacity: 100%;
-  transform: scale(1.06);
-  box-shadow: 0 0 10px #68640098;
-}
+  background-image: linear-gradient(111deg, #003439 0%, #003c41 48%, #00545c 100%); }
+  .login h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #00F0FF;
+    padding-bottom: 12px; }
+  .login .form1 {
+    text-align: center;
+    gap: 0 20px; }
+    .login .form1 p {
+      text-align: center; }
+    .login .form1 input {
+      padding: 3px 5px;
+      border-radius: 20px;
+      color: black !important;
+      font-weight: bold; }
+  .login .botao-flex {
+    display: flex;
+    justify-content: center; }
+    .login .botao-flex .botao {
+      background-color: #d66f00 !important;
+      background-image: linear-gradient(135deg, #d66f00 0%, #F7CE68 100%) !important;
+      color: black;
+      border-radius: 20px;
+      border: none;
+      font-weight: 400;
+      padding: 5px;
+      transition: 500ms !important; }
+      .login .botao-flex .botao:hover {
+        transform: scale(1.03) !important;
+        color: white; }
 
 .text-login2 {
   text-align: center;
   font: 0.8rem "arial";
   box-sizing: border-box;
-  padding: 50px 10px;
-}
+  padding: 50px 10px; }
 
 @media (min-width: 430px) and (max-width: 700px) {
   .login {
-    width: 80%;
-  }
-}
+    width: 80%; } }
 @media (min-width: 990px) and (max-width: 4000px) {
   .login {
-    width: 500px;
-  }
-}
+    width: 500px; } }
 
 /*# sourceMappingURL=login.css.map */

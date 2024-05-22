@@ -72,20 +72,18 @@ h3 {
     display: flex;
     justify-content: center;
         .botao { 
-            transform: scale(1.06);
-            background-color: $color-6;
-             color: black;
-           
-            padding: 5px;
+            background-color: #d66f00 !important;
+            background-image: linear-gradient(135deg, #d66f00 0%, #F7CE68 100%) !important;
+            color: black;
             border-radius: 20px;
-            // text
-            font-weight: bold; 
-                // tempo da animação 
-                transition: 500ms;
-                    &:hover  {
-                        opacity: 100%;
-                        transform: scale(1.06);
-                        box-shadow:  0 0 10px #68640098;
+            border: none;
+            font-weight: 400; 
+            padding: 5px;
+            // tempo da animação 
+            transition: 500ms !important;
+                    &:hover  {   
+                        transform: scale(1.03) !important;
+                        color: $color-4;
                     }
         }
    }

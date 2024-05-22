@@ -39,6 +39,10 @@
            <h3 class="cart-center">Em Busca Da Golden Apple</h3>
            <h3 class="cart-center"><span>R$:99,00</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
@@ -48,6 +52,10 @@
            <h3 class="cart-center">Euro Truck Simulador 2</h3>
            <h3 class="cart-center"><span>R$:76,99</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
@@ -57,6 +65,10 @@
            <h3 class="cart-center">Monster Hunter</h3>
            <h3 class="cart-center"><span>R$:230,99</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
 
 
@@ -68,6 +80,10 @@
            <h3 class="cart-center">Call of Duty MWII</h3>
            <h3 class="cart-center"><span>R$:299,00</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="cs">
@@ -77,6 +93,10 @@
            <h3 class="cart-center">Counter Strike 2</h3>
            <h3 class="cart-center"><span>R$:Free</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
@@ -86,6 +106,10 @@
            <h3 class="cart-center">GTA-V</h3>
            <h3 class="cart-center"><span>R$:320,99</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
@@ -95,6 +119,10 @@
            <h3 class="cart-center">Elder Ring</h3>
            <h3 class="cart-center"><span>R$:199,90</span></h3>
            </div>
+           <div class="acesso">
+              <a href="jogo/golden/index.html">Jogar</a>
+              <a href="jogo/goldenapple">Saiba Mais</a>
+            </div>
     </div>
 
 </div>

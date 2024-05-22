@@ -1,4 +1,5 @@
-
+<div class="informacoes">
+  
 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" data-aos="fade-up" data-aos-duration="800">
 <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -26,34 +27,51 @@
   </button>
 </div>
 
+
+</div>
+
+
+<div class="informacoes-game" data-aos="fade-up" data-aos-duration="500">
+    <h2>Descrição</h2>
+        <p>Esse é um jogo de aventura e desafios, nesse jogo seu objetivo é chegar até o final da caverna
+           e coletar uma Maça dourada que tem o poder da imortalidade, boa sorte</p>
+
+           <p>Desenvolvedor: <a href="contato">Lucas Pedrozo</a></p>
+           <p>Data de lançamento: 23/04/2024</p>
+           <P>Impresa: LP Designer</P>
+           <a href="https://lucas-pedrozo.github.io/portifolio1.0/" class="link-dev">Site do Desenvolvedor</a>
+
+  </div>
+
+
 <h2 class="text-center" data-aos="fade-up" data-aos-duration="400">Requisitos</h2>
 
-<div class="requisitos">
-    <div class="requisitos-block" data-aos="fade-right" data-aos-duration="400">
+<div class="requisitos margin-zero">
+    <div class="requisitos-block margin-zero" data-aos="fade-right" data-aos-duration="400">
 
         <h3>Minimo</h3>
         <p class="p2">windows</p>
-        <p>CPU: Intel core 10ª a 14ª gereção</p>
-        <p>Memoria: 8 GB a 32 Gb de Ram </p>
-        <p>Armazenamento: 2 gb Disponível</p>
-        <p>GPU: Geforce RTX 3050 6 Gb</p>
+        <p><span>CPU:</span> Intel I5 core 12ª gereção</p>
+        <p><span>Memoria:</span> 8 GB a 16 Gb de Ram </p>
+        <p><span>Armazenamento:</span> 2 gb Disponível</p>
+        <p><span>GPU:</span> Geforce RTX 3050 4 Gb</p>
         
     </div>
-    <div class="requisitos-block"data-aos="fade-left" data-aos-duration="400">
+    <div class="requisitos-block margin-zero "data-aos="fade-left" data-aos-duration="400">
         <h3>Recomendado</h3>
         <p class="p2">windows</p>
-        <p>CPU: Intel core 10ª a 14ª gereção</p>
-        <p>Memoria: 8 GB a 32 Gb de Ram </p>
-        <p>Armazenamento: 2 gb Disponível</p>
-        <p>GPU: Geforce RTX 3050 6 Gb</p>
+        <p><span>CPU:</span> Intel I7 ou I9 core 12ª a 14ª gereção</p>
+        <p><span>Memoria:</span> 16 GB a 32 Gb de Ram </p>
+        <p><span>Armazenamento:</span> 20 GB Disponível</p>
+        <p><span>GPU:</span> Geforce RTX 4070TI 12 Gb</p>
     </div>
 </div>
 
-<h2 class="text-center">
+<h2 class="text-center" data-aos="fade-up" data-aos-duration="500">
     Link Abaixo
 </h2>
 
-<div class="center-obj">
+<div class="center-obj" data-aos="fade-up" data-aos-duration="500i">
     <a href="jogo/golden/index.html" class="botao-jogo">Jogue Agora</a>
 </div>
 

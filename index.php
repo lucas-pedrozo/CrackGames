@@ -10,7 +10,8 @@
     
     <title>Crack Games</title>
     
-    <base href="http://localhost/CrackGames/api/">
+    <base href="http://localhost/CrackGames/">
+    <link rel="shortcut icon" href="imagens/logo2.png">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -23,13 +24,13 @@
     
 </head>
 <body> 
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary"  id="navbar" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-out">
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary_"  id="navbar" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-out">
 
     <div class="container-fluid">
 
         <a class="navbar-brand" href="index.php">
-    <img src="imagens/logo.png" alt=" Crack games" title="crack games">
+    <img src="imagens/logo2.png" alt=" Crack games" title="crack games">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contato">CRIADORES</a>
+            <a class="nav-link active" aria-current="page" href="contato">CRIADOR</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,23 +52,28 @@
             </a>
             <ul class="dropdown-menu ">
                 <li><a class="dropdown-item" href="jogo/goldenapple">Em Busca Da Golden Apple</a></li>
-                <li><a class="dropdown-item" href="#">monster-hunter</a></li>
-                <li><a class="dropdown-item" href="#">euro truck</a></li>
-                <li><a class="dropdown-item" href="call">ECall of Duty MWII</a></li>
+                <li><a class="dropdown-item" href="#">Monster-hunter</a></li>
+                <li><a class="dropdown-item" href="#">Euro truck</a></li>
+                <li><a class="dropdown-item" href="call">Call of Duty MWII</a></li>
                 <li><a class="dropdown-item" href="cs">Counter Strike 2</a></li>
                 <li><a class="dropdown-item" href="gta">GTA-V</a></li>
                 <li><a class="dropdown-item" href="elder">Elder Ring</a></li>
             </ul>
             </li>
         </ul>
-       <a href="login" class="btn btn-warning">
-        <strong>LOGIN</strong>
-       </a>
+    
+    <a href="cadastre-se" class="btn">
+        <strong>cadastre-se</strong>
+    </a>
+    <a href="login" class="btn">
+        <strong>Login</strong>
+    </a>
         </div>
     </div>
-</nav>
+    </nav>
 
 
+</header>
 
 <main>
         
