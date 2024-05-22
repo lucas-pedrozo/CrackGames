@@ -10,7 +10,8 @@
     
     <title>Crack Games</title>
     
-    <base href="http://localhost/CrackGames/">
+    <base href="https://lucas-pedrozo.github.io/CrackGames/">
+
     <link rel="shortcut icon" href="imagens/logo2.png">
 
     <link rel="stylesheet" href="css/style.css">

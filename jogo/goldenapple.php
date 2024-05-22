@@ -47,7 +47,7 @@
 <h2 class="text-center" data-aos="fade-up" data-aos-duration="400">Requisitos</h2>
 
 <div class="requisitos margin-zero">
-    <div class="requisitos-block margin-zero" data-aos="fade-right" data-aos-duration="400">
+    <div class="requisitos-block margin-zero" data-aos="fade-up" data-aos-duration="400">
 
         <h3>Minimo</h3>
         <p class="p2">windows</p>
@@ -57,7 +57,7 @@
         <p><span>GPU:</span> Geforce RTX 3050 4 Gb</p>
         
     </div>
-    <div class="requisitos-block margin-zero "data-aos="fade-left" data-aos-duration="400">
+    <div class="requisitos-block margin-zero "data-aos="fade-up" data-aos-duration="400">
         <h3>Recomendado</h3>
         <p class="p2">windows</p>
         <p><span>CPU:</span> Intel I7 ou I9 core 12ª a 14ª gereção</p>
