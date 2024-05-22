@@ -29,7 +29,7 @@
             </div>
 </br>
             <div class="botao-flex" data-aos="fade-left">
-                <button type="submit" class="botao">Confirmar</button>
+                <button type="submit" class="botao">Confirmar Login</button>
             </div>
          </form>
     </div>

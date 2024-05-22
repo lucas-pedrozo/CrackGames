@@ -64,7 +64,7 @@ body {
     & .nav-link {
         color: $color-4!important;
         border-radius: 20px;
-        margin-left: 20px;
+        
         font-size: 14px;
         // tempo da animação
         transition: 300ms !important;
@@ -239,10 +239,20 @@ main {
             text-decoration: none;
             padding: 7px;
             margin-right: 7px;
+            // tempo da animação
+            transition: 300ms!important;
+                    &:hover {
+                        color: rgb(255, 255, 255);
+                    }
         }
     }
 }
 // tample game
+
+
+.informacoes {
+    width: 100%;
+}
 
 .informacoes-game {
     background-color: #002435;
@@ -302,7 +312,7 @@ main {
    background-image: linear-gradient(135deg, #d66f00 0%, #eeb831 100%);
     border-radius: 20px;
     padding: 6px;
-    transition: 400ms !important;
+    transition: 300ms !important;
         &:hover{
          transform: scale(1.03);   
          box-shadow: 0 0 15px rgb(255, 153, 0);
@@ -374,6 +384,9 @@ main {
             }
     }
 }
+
+
+
 @media (min-width:430px) and (max-width:700px){
     main {
        padding: 0 20px;
@@ -451,5 +464,9 @@ main {
     }
     .informacoes-game {
         width: 40%;
+    }
+    .informacoes {
+        width: 80%;
+        margin: auto;
     }
 }

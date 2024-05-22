@@ -1,6 +1,6 @@
 <div class="informacoes">
   
-<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" data-aos="fade-up" data-aos-duration="800">
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" data-aos="fade-up" data-aos-duration="500">
 <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -27,8 +27,8 @@
   </button>
 </div>
 
-
 </div>
+
 
 
 <div class="informacoes-game" data-aos="fade-up" data-aos-duration="500">

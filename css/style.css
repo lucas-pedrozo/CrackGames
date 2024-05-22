@@ -37,7 +37,6 @@ body {
   #navbar .nav-link {
     color: white !important;
     border-radius: 20px;
-    margin-left: 20px;
     font-size: 14px;
     transition: 300ms !important; }
     #navbar .nav-link:hover {
@@ -168,7 +167,13 @@ main {
       font-weight: 800;
       text-decoration: none;
       padding: 7px;
-      margin-right: 7px; }
+      margin-right: 7px;
+      transition: 300ms !important; }
+      .cart .acesso a:hover {
+        color: white; }
+
+.informacoes {
+  width: 100%; }
 
 .informacoes-game {
   background-color: #002435;
@@ -218,7 +223,7 @@ main {
   background-image: linear-gradient(135deg, #d66f00 0%, #eeb831 100%);
   border-radius: 20px;
   padding: 6px;
-  transition: 400ms !important; }
+  transition: 300ms !important; }
   .botao-jogo:hover {
     transform: scale(1.03);
     box-shadow: 0 0 15px #ff9900;
@@ -326,6 +331,10 @@ main {
     width: 40%; }
 
   .informacoes-game {
-    width: 40%; } }
+    width: 40%; }
+
+  .informacoes {
+    width: 80%;
+    margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */
