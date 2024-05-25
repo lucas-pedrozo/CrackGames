@@ -10,8 +10,10 @@
     
     <title>Crack Games</title>
     
-    <base href="https://lucas-pedrozo.github.io/CrackGames/">
-
+    <!-- <base href="https://crackgamess.000webhostapp.com/"> -->
+    <base href="http://localhost/CrackGames/">
+    
+    
     <link rel="shortcut icon" href="imagens/logo2.png">
 
     <link rel="stylesheet" href="css/style.css">
@@ -31,7 +33,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="index.php">
-    <img src="imagens/logo2.png" alt=" Crack games" title="crack games">
+    <img src="imagens/logo3.jpeg" alt=" Crack games" title="crack games">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +47,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contato">CRIADOR</a>
+            <a class="nav-link active" aria-current="page" href="contato">CONTATO</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -108,12 +110,12 @@
     </main>
 
     <footer class="footer">
-        <h2 class="text-footer">Contato</h2>
+        <h2 class="text-footer">Redes Sociais</h2>
         <div class="links">
         <a href="https://www.instagram.com/lucas__pedrozo?igsh=ZndteTJiaTB4OTZu">
             <i class="bi bi-instagram"></i>
         </a>
-        <a href="index.php">
+        <a href="https://github.com/lucas-pedrozo">
         <i class="bi bi-github"></i>
         </a>
         <a href="https://wa.me/qr/OGED4XU6THFTB1">

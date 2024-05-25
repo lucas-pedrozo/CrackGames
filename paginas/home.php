@@ -7,13 +7,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="imagens/call.jpg" class="d-block w-100" alt="Em busca da golden apple">
+    <a href=""><img src="imagens/elder.jpg" class="d-block w-100" alt="..."></a>
     </div>
     <div class="carousel-item">
-      <img src="imagens/cs2.jpg" class="d-block w-100" alt="...">
+      <a href="jogo/goldenapple"><img src="imagens/capa.png" class="d-block w-100" alt="Em busca da golden apple"></a>
     </div>
     <div class="carousel-item">
-      <img src="imagens/gta-v.jpg" class="d-block w-100" alt="...">
+      <a href=""><img src="imagens/gta-v.jpg" class="d-block w-100" alt="..."></a>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -36,7 +36,7 @@
             <img src="imagens/capa.png" alt="Clique para Jogar" title="Clique para Jogar">
         </a>
            <div class="descricao">
-           <h3 class="cart-center">Em Busca Da Golden Apple</h3>
+           <h3 class="cart-center">Golden Apple</h3>
            <h3 class="cart-center"><span>R$:99,00</span></h3>
            </div>
            <div class="acesso">
@@ -44,17 +44,18 @@
               <a href="jogo/goldenapple">Saiba Mais</a>
             </div>
     </div>
+    
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
-            <img src="imagens/euro.jpg" alt="Clique para Jogar" title="Clique para Jogar">
+            <img src="imagens/elder.jpg" alt="Clique para Jogar" title="Clique para Jogar">
         </a>
            <div class="descricao">
-           <h3 class="cart-center">Euro Truck Simulador 2</h3>
-           <h3 class="cart-center"><span>R$:76,99</span></h3>
+           <h3 class="cart-center">Elder Ring</h3>
+           <h3 class="cart-center"><span>R$:199,90</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
@@ -66,8 +67,8 @@
            <h3 class="cart-center"><span>R$:230,99</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
 
@@ -81,8 +82,8 @@
            <h3 class="cart-center"><span>R$:299,00</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
@@ -94,8 +95,8 @@
            <h3 class="cart-center"><span>R$:Free</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
@@ -107,21 +108,21 @@
            <h3 class="cart-center"><span>R$:320,99</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
     <div class="cart-block" data-aos="fade-up" data-aos-duration="800">
         <a href="#">
-            <img src="imagens/elder.jpg" alt="Clique para Jogar" title="Clique para Jogar">
+            <img src="imagens/euro.jpg" alt="Clique para Jogar" title="Clique para Jogar">
         </a>
            <div class="descricao">
-           <h3 class="cart-center">Elder Ring</h3>
-           <h3 class="cart-center"><span>R$:199,90</span></h3>
+           <h3 class="cart-center">Euro Truck</h3>
+           <h3 class="cart-center"><span>R$:76,99</span></h3>
            </div>
            <div class="acesso">
-              <a href="jogo/golden/index.html">Jogar</a>
-              <a href="jogo/goldenapple">Saiba Mais</a>
+              <a href="">Jogar</a>
+              <a href="">Saiba Mais</a>
             </div>
     </div>
 

@@ -36,10 +36,11 @@
         <p>Esse é um jogo de aventura e desafios, nesse jogo seu objetivo é chegar até o final da caverna
            e coletar uma Maça dourada que tem o poder da imortalidade, boa sorte</p>
 
-           <p>Desenvolvedor: <a href="contato">Lucas Pedrozo</a></p>
+           <p>Desenvolvedor: <a href="https://lucas-pedrozo.github.io/portifolio1.0/">Lucas Pedrozo</a></p>
            <p>Data de lançamento: 23/04/2024</p>
            <P>Impresa: LP Designer</P>
            <a href="https://lucas-pedrozo.github.io/portifolio1.0/" class="link-dev">Site do Desenvolvedor</a>
+           <a href="https://lucas-pedrozo.github.io/GOLDENAPPLE/" class="link-dev">Site Do Jogo</a>
 
   </div>
 

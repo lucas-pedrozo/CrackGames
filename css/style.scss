@@ -7,7 +7,7 @@ $color-4: white;
 $color-5: rgb(0, 160, 160);
 $color-6: #002435;
 $color-7: black;
-
+$color-8: #4cf000;
 
 $font-1:"Montserrat";
     .margin-zero {
@@ -43,16 +43,13 @@ body {
     margin-top: 5px;
     background-color: rgba(255, 255, 255, 0)!important;
     backdrop-filter: blur(999px) !important;
-
     //background-color: #061d20;
     //background-image: linear-gradient(180deg, #00343b 0%, #004750 100%);
     //box-shadow: 0 0 15px rgba(0, 140, 255, 0.603);
-
     top: 0;   
     z-index: 99999;
     padding: 0 20px;
     border-radius: 0 0 20px 20px;
-
         & .navbar-toggler {
         background-color: #00aab6!important;         
         border: 2px solid white; 
@@ -60,11 +57,9 @@ body {
                 box-shadow: 0 0 10px #00F0FF;
             }
         }
-
     & .nav-link {
         color: $color-4!important;
-        border-radius: 20px;
-        
+        border-radius: 20px; 
         font-size: 14px;
         // tempo da animação
         transition: 300ms !important;
@@ -72,9 +67,8 @@ body {
                 transform: scale(1.06) !important;
                 border-radius: 20px;
                 color: rgb(255, 251, 0)!important;
-        }
-    }
-
+                }
+    }   
     & .collapse {
         & .btn {
             border-radius: 20px;
@@ -85,13 +79,13 @@ body {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
             margin-left: 10px;
             // tempo da animação
-            transition: 300ms !important;
+                transition: 300ms !important;
                     &:hover {
                         transform: scale(1.03) !important;
                         box-shadow:  0 0 10px rgba(255, 145, 0, 0.363);
                     }
+            }
         }
-    }
 }
 
 .dropdown-menu {
@@ -120,16 +114,14 @@ main {
     background-color: #0b434a;
     background-image: linear-gradient(0deg, #00343b 0%, #004750 100%);
     border-radius: 10px 10px 0 0 ;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    
-    
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
     padding: 6px;
-    & .text-footer {
-        text-align: center;
-        font-size: 1.3rem;
-        padding-bottom: 5px;
-    color: rgb(255, 238, 0);
-    }
+        & .text-footer {
+            text-align: center;
+            font-size: 1.3rem;
+            padding-bottom: 5px;
+            color: rgb(255, 238, 0);
+        }
     & .links {
         display: flex;
         justify-content: center;
@@ -137,7 +129,6 @@ main {
           & a {
             font-size: 24px;
             color: $color-4;
-            // tempo da anmimação 
             transition: 200ms;
             &:hover {
                 transform: scale(1.2);
@@ -145,23 +136,21 @@ main {
         }
     }
 }
-
 // carrosel !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .carousel-item {
     & img {
     border-radius: 15px;
     }
 }
+    .erro {
+        width: 100%;
+        text-align: center;
+    }
+        .text-erro {
+            text-align: center;
+        }
 
-.erro {
-    width: 100%;
-    text-align: center;
-}
-.text-erro {
-    text-align:center ;
-}
 // home home home
-
 .text-center {
     text-align: center;
     color: $color-3;
@@ -173,14 +162,12 @@ main {
 .cart-center {
     text-align: start !important;
     color: $color-4 !important;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding:15px 10px;
-    & span {
-        color: #4cf000;
-    }
+        & span {
+            color: $color-8;
+        }
 }
-
-
 .cart {
     display: flex;
     justify-content: center;
@@ -199,14 +186,15 @@ main {
         border-radius: 20px;
         transition: 300ms !important;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
+        box-sizing: border-box;
             &:hover{
             transform: scale(1.02) !important;
             box-shadow:0 0 10px #00eeffc7;    
             }
                 & img {
                     width: 100%;
-                    margin: auto;
                     border-radius:20px;
+                    top:0;
                 }
                     & .jogue {
                         width: 130px;
@@ -266,7 +254,7 @@ main {
     transition: 500ms !important;
     &:hover {
         transform: scale(1.02)!important;
-        box-shadow:  0 0 15px rgb(0, 58, 134);
+        box-shadow: 0 0 10px rgba(0, 89, 255, 0.486);
     }
         & h2 {
             text-align: center;
@@ -284,6 +272,7 @@ main {
                 background-color: #d66f00;
             background-image: linear-gradient(135deg, #ca6800 0%, #dfa000 100%);          
                 padding: 4px;
+                margin-right: 10px;
                 font-weight: 600;
                 color: $color-7;
                 border-radius: 20px;
@@ -322,7 +311,6 @@ main {
 
 .requisitos {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     & .requisitos-block {
         margin: 30px auto;
@@ -334,8 +322,8 @@ main {
         // tempo da animação
         transition: 500ms !important;
                 &:hover {
-                    transform: scale(1.02)!important;
-                    box-shadow: 0 0 15px rgb(0, 86, 245);
+                    transform: scale(1.015)!important;
+                    box-shadow: 0 0 10px rgba(0, 89, 255, 0.486);
                 }
             & h3 {
                 text-align: center;
@@ -356,39 +344,70 @@ main {
         }
     }  
 }
-//criadores
-.criador {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-            & img {
-                width: 90%;
-                margin: auto;
-                box-shadow:  0 0 10px black;
-                border-radius: 15px;
-            }
-    & .criador-info {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-            & .criador-info-block {
-                width: 90%;
-                margin: 20px auto;
-                background-color: $color-6;
-                border-radius: 10px;
-                padding: 10px;
-                box-sizing: border-box;
-                & h5 {
-                    padding: 2px 40px;
-                }
-            }
+// entre em contato
+/* entre en contato */
+.contato {
+    background-color: #003439;
+    background-image: linear-gradient(111deg, #003439 0%, #003c41 48%, #00545c 100%);
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 5px;
+    box-shadow: 0 0 10px black;
+    border: 2px solid aqua;
+    h2 {
+        text-align: center;
+        font-size: 1.4rem;
+        color: $color-3;
+        padding: 12px;
     }
+        & .form {
+            text-align: center;
+            & input {
+                padding: 3px 5px;
+                border-radius: 20px;
+                color: $color-7;
+                font-weight: bold;
+                border: 2px solid rgb(0, 126, 126);
+                box-shadow: 0 0 10px black;
+            }
+            & #mensagem {
+                border-radius: 15px;
+                width: 95%;
+                padding: 5px 2px;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                border:2px solid rgb(0, 126, 126);
+                box-shadow: 0 0 15px black;
+            }
+            
+        }
+        & .botao-center {
+            display: flex;
+            justify-content: center;
+                & .botao-enviar {
+                    text-align: center;
+                    background-color: #d66f00 !important;
+                    background-image: linear-gradient(135deg, #d66f00 0%, #F7CE68 100%) !important;
+                    color: black;
+                    box-shadow: 0 0 1px rgba(0, 0, 0, 0.712);
+                    border-radius: 20px;
+                    border: none;
+                    font-weight: 600; 
+                    padding: 5px;
+                    // tempo da animação 
+                    transition: 500ms !important;
+                            &:hover  {   
+                                transform: scale(1.03) !important;
+                                color: $color-4;
+                            }
+                }
+        }
 }
-
-
 
 @media (min-width:430px) and (max-width:700px){
     main {
+        width: 100%;
        padding: 0 20px;
     }
     .contato {
@@ -404,13 +423,15 @@ main {
             width: 70%;
         }
     }
+    .cart-center {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width:700px) and (max-width:990px){
 
     //navbar
     #navbar {
-    
         & .nav-link {
             color: $color-4!important;
             font-weight: bold;  
@@ -419,19 +440,20 @@ main {
                 }
         }
     }
-    .cart-center{
-        font-size: 0.8rem;
-    }
-    main {
-        width: 60%;
-    }
+        .cart-center{
+            font-size: 0.8rem;
+        }
+            main {
+                width: 75%;
+            }
      .cart {
         margin-bottom: 80px;
-            &.cart-block {
-                width: 40%;
+            & .cart-block {
                 margin: 8px;
+                width: 40%;
         }
     }
+
     .informacoes-game {
         width: 66%;
     }
@@ -454,7 +476,7 @@ main {
     .cart {
         & .cart-block {
             width: 30%;
-             margin: 10px;
+             margin: 11px;
         }
     }
     .requisitos {
@@ -469,4 +491,15 @@ main {
         width: 80%;
         margin: auto;
     }
+
+    .contato {
+        width: 48%;
+        & .form {
+            & #mensagem {
+                margin-top: 10px;
+                width: 90%;
+            }
+        }
+    }
+
 }

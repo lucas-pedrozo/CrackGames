@@ -8,27 +8,27 @@
 <body>
     
 
-<div class="login" data-aos="fade"  data-aos-easing="eease-in-out" >
+<div class="login" data-aos="fade"  data-aos-easing="ease-in-out" >
 
-<h1 data-aos="fade-right">Cadastre-se</h1>
+<h2 data-aos="fade-up">Cadastre-se</h2>
 
 <form method="post" action="index.php">
     <div class="form1">
-    <p data-aos="fade-left" data-aos-duration="500">Digite Seu Email:</p>
-    <input type="email" name="nome" id="email" required size="25" title="Digite seu nome Completo" data-aos="fade-left" data-aos-duration="500">
+    <p data-aos="fade-up" data-aos-duration="500">Digite Seu Email:</p>
+    <input type="email" name="nome" id="email" required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500">
     </div>
 </br>
     <div class="form1">
-    <p data-aos="fade-right" data-aos-duration="500" class="margin0">Digite seu Senha: </p>
-    <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-right" data-aos-duration="500">
+    <p data-aos="fade-up" data-aos-duration="500" class="margin0">Digite seu Senha: </p>
+    <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500">
     </div>
 </br>
     <div class="form1">
-    <p data-aos="fade-right" data-aos-duration="500" class="margin0">Confirme Sua Senha: </p>
-    <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-right" data-aos-duration="500">
+    <p data-aos="fade-up" data-aos-duration="500" class="margin0">Confirme Sua Senha: </p>
+    <input type="password" name="Number" id="senha"required size="25" title="Digite seu nome Completo" data-aos="fade-up" data-aos-duration="500">
     </div>
 </br>
-    <div class="botao-flex" data-aos="fade-left">
+    <div class="botao-flex" data-aos="fade-up">
         <button type="submit" class="botao">Confirmar Login</button>
     </div>
  </form>
